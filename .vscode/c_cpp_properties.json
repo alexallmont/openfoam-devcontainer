@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "name": "OpenFOAM",
+            "compilerPath": "/usr/bin/g++",
+            "cppStandard": "c++14",
+            "includePath": [
+                "/usr/lib/openfoam/openfoam2306/src/OpenFOAM/lnInclude",
+                "/usr/lib/openfoam/openfoam2306/src/finiteVolume/lnInclude",
+                "/usr/lib/openfoam/openfoam2306/src/meshTools/lnInclude"
+            ],
+            "defines": [
+                "OPENFOAM=2306",
+                "WM_DP",
+                "WM_LABEL_SIZE=32"
+            ]
+        }
+    ],
+    "version": 4
+}
